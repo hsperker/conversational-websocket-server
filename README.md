@@ -33,7 +33,7 @@ $ java -jar cws.jar
 
 The following commands are implemented.
 
-### List all connected clients
+### Clients
 
 List all connected clients by session id.
 
@@ -41,7 +41,7 @@ List all connected clients by session id.
 clients ⏎
 ```
 
-### Broadcast to all clients
+### Broadcast
 
 Send a message as broadcast to all connected clients.
 
@@ -49,7 +49,7 @@ Send a message as broadcast to all connected clients.
 broadcast 'hello to all' ⏎
 ```
 
-### Unicast to one client
+### Unicast
 
 Send a message as unicast to a specific client.
 
